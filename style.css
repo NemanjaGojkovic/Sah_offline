@@ -1,0 +1,438 @@
+.crna{
+    background-color: rgb(102, 49, 2);
+}
+
+.bela{
+    background-color: rgb(252, 220, 192);
+}
+
+td{
+    
+    height: 72px;
+    width: 72px;
+}
+
+table{
+    border-spacing: 0px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.postolje{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+th{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+
+.body{
+    background-color: rgb(225, 186, 135);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.dugme{
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 25px;
+    width: 140px;
+    border-color: rgb(102, 49, 2);
+    color: rgb(102, 49, 2);
+    background-color: rgb(252, 220, 192);
+}
+
+.overlay{
+    display: none;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0%;
+    transition: 1s linear;
+}
+
+.promocijaPoljeBeli{
+    display: flex;
+    width: 72px;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+}
+
+.promocijaBeli{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: fixed;
+    left: 620px;
+    top: 310px;
+}
+
+.promocijaCrni{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: fixed;
+    left: 620px;
+    top: 310px;
+}
+
+.promocijaPoljeCrni{
+    display: flex;
+    height: 72px;
+    width: 72px;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+}
+
+.crniMatiran{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    left: 620px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.krajMeca{
+    width: 50px;
+    height: 50px;
+}
+
+.dugmadi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.slikica{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.beliMatiran{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    left: 620px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.pat{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    left: 620px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.nedostatakMaterijala{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    left: 620px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.poteza50{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    left: 620px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.repeticija{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    left: 620px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.beliPredao{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    left: 620px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.crniPredao{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    left: 620px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.potvrdiPredaju{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 600px;
+    left: 485px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.potvrdiNovuIgru{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 500px;
+    left: 535px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.izbor{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    left: 630px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.izborBonus{
+    display: flex;
+    flex-direction: row;
+}
+
+.slikicaPijuna{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.saticCrni{
+    border: solid 4px rgb(102, 49, 2);
+    border-radius: 5px;
+    width: 145px;
+    height: 52px;
+    background-color: rgb(252, 220, 192);
+    justify-content: center;
+    align-items: center;
+}
+
+.saticBeli{
+    border: solid 4px rgb(102, 49, 2);
+    border-radius: 5px;
+    width: 145px;
+    height: 52px;
+    background-color: rgb(252, 220, 192);
+    justify-content: center;
+    align-items: center;
+}
+
+#vremeBeli{
+    color: rgb(102, 49, 2);
+    font-size: 30px;
+}
+
+#vremeCrni{
+    color: rgb(102, 49, 2);
+    font-size: 30px;
+}
+
+.vremeIgranja{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 500px;
+    left: 500px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.blic{
+    display: flex;
+    flex-direction: row;
+}
+
+.rapid{
+    display: flex;
+    flex-direction: row;
+}
+
+.bulet{
+    display: flex;
+    flex-direction: row;
+}
+
+.ostalo{
+    display: flex;
+    flex-direction: row;
+}
+
+.vremena{
+    border: solid 1px rgb(102, 49, 2);
+    margin: 5px;
+    padding: 5px;
+    color: rgb(102, 49, 2);
+    background-color: rgb(252, 220, 192);
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.vremena:hover{
+    background-color: rgb(229, 164, 108);
+}
+
+.crniIzgubioNaVreme{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    left: 620px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
+
+.beliIzgubioNaVreme{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    left: 620px;
+    top: 760px;
+    background-color: aquamarine;
+    opacity: 0.95;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: top 1s linear;
+}
